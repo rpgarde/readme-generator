@@ -20,7 +20,7 @@ Run the following code to install dependencies:
 ## Usage
 Click [HERE](https://drive.google.com/file/d/1MUafapTUawkgOD6e0wBO-xHcCj2ciqWZ/view?usp=sharing) for a video walkthrough
 1. Git clone this to your local machine and install per the above instructions
-2. Ensure you have a license in your repo before creating the readme as the badge is generated from there.
+2. Ensure you have a license in your repo before creating the readme as the badge is generated from there. See [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) for a quick guide.
 3. Type node index in the terminal after navigating to the file
 4. Answer all of the questions
 5. A file called README.MD will be generated and a "File created!" message will pop up in the terminal
