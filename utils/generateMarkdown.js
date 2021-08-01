@@ -2,7 +2,7 @@
 // Pls note I used the auto-shield generator for license depending on username / repo name, which is why I ask for both in the prompt
 function generateMarkdown(data) {
 return `# ${data.project}
-https://img.shields.io/github/license/${data.username}/${data.repo}
+![license](https://img.shields.io/github/license/${data.username}/${data.repo})
 
 ## Description
 ${data.description}
