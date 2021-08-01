@@ -1,18 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  console.log('licencebadge')
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// function that generates markdown
+// Pls note I used the auto-shield generator for license depending on username / repo name, which is why I ask for both in the prompt
 function generateMarkdown(data) {
 return `# ${data.project}
 https://img.shields.io/github/license/${data.username}/${data.repo}
@@ -52,5 +39,3 @@ For any further questions, reach out to ${data.email}
 }
 
 module.exports = generateMarkdown;
-
-//{project,repo,username,email,description,license,dependencies,test,usage,contributions}

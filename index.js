@@ -1,8 +1,9 @@
+// require the relevant packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require(('./utils/generateMarkdown.js'));
 
-// validator to ensure that all fields have inputs
+// Validator to ensure that all fields have inputs
 const validator = (input) => {
     if(input.length===0){  
         return 'Please provide an input';
@@ -12,7 +13,7 @@ const validator = (input) => {
     }
 }
 
-// TODO: Create an array of questions for user input
+// Array for user input
 const questions = [
     {
         type: "input",
@@ -80,7 +81,8 @@ const questions = [
         validate: validator
     }
 ];
-// TODO: Create a function to write README file
+
+// Write function
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
@@ -90,7 +92,7 @@ function writeToFile(fileName, data) {
       });
 }
 
-// TODO: Create a function to initialize app
+// Initialises app
 function init() {
     inquirer
     .prompt(questions)
