@@ -32,5 +32,5 @@ Run the following code in your console to run tests
         N/A - no tests installed
 
 ## Questions
-For any further questions, reach out to rpgarde@gmail.com
+For any further questions, reach out to rpgarde@gmail.com or visit my [Github profile](https://github.com/rpgarde).
 

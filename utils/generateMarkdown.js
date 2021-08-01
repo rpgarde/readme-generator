@@ -33,7 +33,7 @@ Run the following code in your console to run tests\n
         ${data.test}
 
 ## Questions
-For any further questions, reach out to ${data.email}
+For any further questions, reach out to ${data.email} or visit my [Github profile](https://github.com/${data.username}).
 
 `
 }
